@@ -1,4 +1,5 @@
 package question;
 
-public class QuestionRenderer {
+public interface QuestionRenderer {
+    void render(Question question);
 }

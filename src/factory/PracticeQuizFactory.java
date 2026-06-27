@@ -1,4 +1,12 @@
 package factory;
 
-public class PracticeQuizFactory {
+import exam.Exam;
+import exam.PracticeQuiz;
+
+public class PracticeQuizFactory extends ExamFactory {
+
+    @Override
+    public Exam createExam() {
+        return new PracticeQuiz();
+    }
 }

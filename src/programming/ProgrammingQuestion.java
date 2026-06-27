@@ -1,16 +1,16 @@
-package mcq;
+package programming;
 
 import question.Question;
 
-public class MCQQuestion implements Question {
+public class ProgrammingQuestion implements Question {
 
     private String type;
     private String text;
     private int points;
     private String difficulty;
 
-    public MCQQuestion(String text, int points, String difficulty) {
-        this.type = "MCQ";
+    public ProgrammingQuestion(String text, int points, String difficulty) {
+        this.type = "Programming";
         this.text = text;
         this.points = points;
         this.difficulty = difficulty;

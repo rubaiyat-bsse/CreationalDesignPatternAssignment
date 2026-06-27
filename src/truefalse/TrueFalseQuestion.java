@@ -1,16 +1,16 @@
-package mcq;
+package truefalse;
 
 import question.Question;
 
-public class MCQQuestion implements Question {
+public class TrueFalseQuestion implements Question {
 
     private String type;
     private String text;
     private int points;
     private String difficulty;
 
-    public MCQQuestion(String text, int points, String difficulty) {
-        this.type = "MCQ";
+    public TrueFalseQuestion(String text, int points, String difficulty) {
+        this.type = "True/False";
         this.text = text;
         this.points = points;
         this.difficulty = difficulty;

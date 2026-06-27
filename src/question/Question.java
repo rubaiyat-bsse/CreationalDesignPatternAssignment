@@ -1,4 +1,8 @@
 package question;
 
-public class Question {
+public interface Question {
+    String getType();
+    String getText();
+    int getPoints();
+    String getDifficulty();
 }
